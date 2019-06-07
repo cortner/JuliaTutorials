@@ -12,11 +12,21 @@ Example](http://www.scolvin.com/juliabyexample/) or [Learn X=Julia in
 Y Minutes](http://learnxinyminutes.com/docs/julia/).
 
 The examples are written as
-[IJulia](https://github.com/JuliaLang/IJulia.jl) notebooks. To edit
+[IJulia](https://github.com/JuliaLang/IJulia.jl) notebooks. To view them,
+just click on the relevant links in the list of files.
+
+To edit
 and run them you will need to install Julia and IJulia. First download
 and install [Julia](http://julialang.org/downloads/), follow the
 instructions on the [IJulia
-Webpage](https://github.com/JuliaLang/IJulia.jl).
+Webpage](https://github.com/JuliaLang/IJulia.jl). From a terminal clone the repository
+```
+git clone https://github.com/cortner/JuliaTutorials.git
+```
+and then start an IPython server,
+```
+jupyter notebook
+```
 
 **Notes:**
 1. At the moment these notebooks are not all are very polished. Please [let me
